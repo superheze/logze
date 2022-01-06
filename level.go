@@ -31,3 +31,13 @@ func (logLevel LogLevel) String() string {
 	}
 	return "unknown"
 }
+
+var AllLogLevels = []LogLevel{
+	PanicLevel,
+	FatalLevel,
+	ErrorLevel,
+	WarningLevel,
+	InfoLevel,
+	DebugLevel,
+	TraceLevel,
+}
