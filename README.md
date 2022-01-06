@@ -1,0 +1,2 @@
+# logze
+Logging for Go.
